@@ -27,9 +27,15 @@ print 'Salt: %.2f teaspoons.' % float(nsalt)
 print 'Yeast %.2f teaspoons.' % float(nyeast)
 print 'Happy Baking!'
 
+# avoiding magic numbers
+flourgrams = 120
+watergrams = 237
+saltgrams = 5
+yeastgrams = 3
+
 print '\n-- Modified Recipe in Grams --'
-print 'BreadFlour: %.2f g.' % (float(nflour) * 120)
-print 'Water: %.2f g.' % (float(nwater) * 237)
-print 'Salt: %.2f g.' % (float(nsalt) * 5)
-print 'Yeast %.2f g.' % (float(nyeast) * 3)
+print 'BreadFlour: %.2f g.' % (float(nflour) * flourgrams)
+print 'Water: %.2f g.' % (float(nwater) * watergrams)
+print 'Salt: %.2f g.' % (float(nsalt) * saltgrams)
+print 'Yeast %.2f g.' % (float(nyeast) * yeastgrams)
 print 'Happy Baking!'
