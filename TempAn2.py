@@ -1,8 +1,8 @@
 # Programmer: Hayden Archambault
 # Version: 1.0
 # Program Description: This program reads a file containing information from NASA
-# concerning data about yearly global temperature from the recoreded past. It calculates 
-# the average deviation from a first percentage of years and how many positive temperature anomalys
+# concerning data about yearly global temperature from the recorded past. It calculates 
+# the average deviation from a first percentage of years and how many positive temperature anomalies
 # occurred in that set.
 
 import Epic
