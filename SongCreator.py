@@ -11,7 +11,7 @@ csong = []
 # this loop gets the user input for the four verses
 for part in song:
     complete = Epic.userString('Enter the %s: ' % part)
-    csong.append(complete)
+    csong.append(complete)  
 
 # makes every verse upper case
 csong[:] = [item.upper() for item in csong]    
