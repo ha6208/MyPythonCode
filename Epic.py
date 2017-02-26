@@ -15,3 +15,8 @@ def userFloat(prompt):
     print prompt,
     f = float(raw_input())
     return f
+    
+def userList(prompt):
+    print prompt,
+    l = raw_input().split(",")
+    return l

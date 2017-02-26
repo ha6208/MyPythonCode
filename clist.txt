@@ -1,0 +1,20 @@
+Fall 15, Data Structures
+Spring 16, Python
+Fall 14, Yoga
+Spring 16, C++
+Fall 14, Statistics
+Spring 16, Discrete Math
+Fall 14, Writing I
+Spring 16, Painting
+Fall 15, Spanish II
+Fall 15, Business Writing
+Spring 15, Java II
+Fall 15, Hiking
+Spring 15, Psychology
+Spring 15, Art History
+Fall 14, Java I
+Spring 15, Pottery
+Spring 15, Spanish I
+Fall 14, History I
+Spring 16, Database
+Fall 15, Networking
