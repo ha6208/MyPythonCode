@@ -20,7 +20,7 @@ def win(d):
             champ = item
     return champ
 
-# determines how much each contestant eats, by a random number 1 through 10
+# determines how much each contestant eats, increasing by a random number 1 through 10
 # also prints out results in real time, every half second
 def engine(d):
     print 'Ready, set, eat!\n'
@@ -55,7 +55,6 @@ def main():
         # guess for contestant to win
         while True:
             guess = Epic.userString('Enter a guess for the winner of the contest! (Fred, Sally, or Tom): ')
-            
             if guess not in contest:
                 print 'That contestant does not exist...\n'
             else:
@@ -64,7 +63,6 @@ def main():
         # place a bet using current wallet
         while True:
             bet = Epic.userInt('Place a bet ($%s in wallet): ' % wallet)
-        
             if bet > wallet:
                 print 'You dont have that much money...\n'
             else:
