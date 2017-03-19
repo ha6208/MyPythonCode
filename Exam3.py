@@ -9,7 +9,7 @@ import Epic
 import random
 
 # takes a list and finds a random element to add to itself, and then shuffles the list
-def makeList(l):
+def cards(l):
     repeat = random.randrange(0, 10)
     l.append(l[repeat])
     random.shuffle(l)
@@ -41,13 +41,13 @@ def engine(l):
         tries = tries + 1
     
         if l[num1] == l[num2]:
-            print 'You win! it took %s tries.' % (tries)
+            print 'You win! It took %s tries.' % (tries)
             break
 
 # creates list and calls functions
 def main():
     l = ['bird', 'dog', 'snake', 'fish', 'cat', 'mouse', 'starfish', 'woodchuck', 'crab']
-    makeList(l)
+    cards(l)
     engine(l)
 
 main()
