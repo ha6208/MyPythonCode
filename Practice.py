@@ -1,12 +1,7 @@
-import random
-import Epic
+rank = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King']
+suit = ['Clubs', 'Hearts', 'Diamonds', 'Spades']
 
-def main():
-    ans = random.randrange(1, 11)
-    keepGoing = True
-    while keepGoing:
-        guess = Epic.userInt("Enter a guess from 1 to 10: ")
-        if guess == ans:
-            print "you win"
-            keepGoing = False
-main()
+def buildDeck(rank, suit):
+    bd = [n + 'of' + m in rank for m in suit]
+
+print bd
