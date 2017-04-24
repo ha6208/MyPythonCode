@@ -1,3 +1,9 @@
+# Programmer: Hayden Archambault
+# Program: Weather.py
+# Version: 1.0
+# Program Description: Allows the user to enter
+# a location and find out the current weather.
+
 import urllib2
 import json
 import Epic
