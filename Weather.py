@@ -22,9 +22,9 @@ while True:
     data = json.loads(jsonTxt)
 
     for letter in str("Here is the current weather for %s, %s\n" % (data['location']['name'], data['location']['region'])):
-            sys.stdout.write(letter)
-            sys.stdout.flush()
-            time.sleep(.04)
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(.04)
             
     print "%s and %s degrees (F)" % (data['current']['condition']['text'], data['current']['temp_f'])
     print "It actually feels like %s degrees (F)" % (data['current']['feelslike_f'])
